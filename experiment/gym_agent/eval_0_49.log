@@ -1,0 +1,52 @@
+[OK ] seed=   0 steps=213 max_cov=0.962 final=0.962
+[OK ] seed=   1 steps=242 max_cov=0.951 final=0.951
+[OK ] seed=   2 steps=180 max_cov=0.967 final=0.967
+[OK ] seed=   3 steps=184 max_cov=0.963 final=0.963
+[OK ] seed=   4 steps= 93 max_cov=0.952 final=0.952
+[OK ] seed=   5 steps=177 max_cov=0.952 final=0.952
+[OK ] seed=   6 steps=194 max_cov=0.960 final=0.960
+[OK ] seed=   7 steps=204 max_cov=0.951 final=0.951
+[OK ] seed=   8 steps=241 max_cov=0.960 final=0.960
+[OK ] seed=   9 steps=160 max_cov=0.971 final=0.971
+[OK ] seed=  10 steps=158 max_cov=0.951 final=0.951
+[OK ] seed=  11 steps=267 max_cov=0.955 final=0.955
+[OK ] seed=  12 steps=143 max_cov=0.960 final=0.960
+[OK ] seed=  13 steps=262 max_cov=0.968 final=0.968
+[OK ] seed=  14 steps= 86 max_cov=0.964 final=0.964
+[OK ] seed=  15 steps=193 max_cov=0.979 final=0.979
+[OK ] seed=  16 steps=198 max_cov=0.969 final=0.969
+[OK ] seed=  17 steps=143 max_cov=0.953 final=0.953
+[OK ] seed=  18 steps=187 max_cov=0.962 final=0.962
+[OK ] seed=  19 steps=252 max_cov=0.957 final=0.957
+[OK ] seed=  20 steps=241 max_cov=0.952 final=0.952
+[OK ] seed=  21 steps= 39 max_cov=0.950 final=0.950
+[OK ] seed=  22 steps=222 max_cov=0.952 final=0.952
+[OK ] seed=  23 steps=183 max_cov=0.967 final=0.967
+[OK ] seed=  24 steps=177 max_cov=0.966 final=0.966
+[OK ] seed=  25 steps=164 max_cov=0.954 final=0.954
+[OK ] seed=  26 steps=220 max_cov=0.974 final=0.974
+[OK ] seed=  27 steps=213 max_cov=0.957 final=0.957
+[OK ] seed=  28 steps=174 max_cov=0.950 final=0.950
+[OK ] seed=  29 steps=146 max_cov=0.964 final=0.964
+[OK ] seed=  30 steps=204 max_cov=0.962 final=0.962
+[OK ] seed=  31 steps=117 max_cov=0.950 final=0.950
+[OK ] seed=  32 steps= 99 max_cov=0.961 final=0.961
+[OK ] seed=  33 steps=213 max_cov=0.955 final=0.955
+[OK ] seed=  34 steps=169 max_cov=0.966 final=0.966
+[OK ] seed=  35 steps=118 max_cov=0.959 final=0.959
+[OK ] seed=  36 steps=208 max_cov=0.953 final=0.953
+[OK ] seed=  37 steps=169 max_cov=0.953 final=0.953
+[OK ] seed=  38 steps=105 max_cov=0.954 final=0.954
+[OK ] seed=  39 steps=231 max_cov=0.950 final=0.950
+[OK ] seed=  40 steps=187 max_cov=0.953 final=0.953
+[OK ] seed=  41 steps=187 max_cov=0.956 final=0.956
+[OK ] seed=  42 steps=105 max_cov=0.964 final=0.964
+[OK ] seed=  43 steps=200 max_cov=0.968 final=0.968
+[OK ] seed=  44 steps=182 max_cov=0.957 final=0.957
+[OK ] seed=  45 steps=192 max_cov=0.952 final=0.952
+[OK ] seed=  46 steps=177 max_cov=0.955 final=0.955
+[OK ] seed=  47 steps=164 max_cov=0.978 final=0.978
+[OK ] seed=  48 steps= 74 max_cov=0.964 final=0.964
+[OK ] seed=  49 steps= 96 max_cov=0.950 final=0.950
+------------------------------------------------------------
+episodes=50  success=50/50 (100.0%)  mean_steps(success)=175.1  mean_max_cov=0.959  elapsed=253.1s

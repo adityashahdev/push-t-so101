@@ -1,0 +1,7 @@
+gym-pusht==0.1.8
+gymnasium==0.29.1
+numpy==2.2.6
+opencv-python==4.14.0.94
+pygame==2.6.1
+pymunk==6.11.1
+shapely==2.1.2

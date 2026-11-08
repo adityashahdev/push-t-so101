@@ -9,6 +9,7 @@ from lens_fix import undistort
 from t_tracker import THICKNESS, load_h, track
 
 DESK = Path(__file__).with_name("desk_dots.json")
+EXTRA = Path(__file__).with_name("grader_dots.json")
 DOT_CONTRAST = 35
 MIN_DOT_AREA, MAX_DOT_AREA = 12, 400
 MATCH_MM = 15.0
@@ -31,7 +32,10 @@ def find_dots(img):
 
 def desk():
     data = json.loads(DESK.read_text())
-    return np.float32(data["dots_mm"]), data["nadir_mm"], float(data["camera_height_mm"])
+    dots = data["dots_mm"]
+    if EXTRA.exists():
+        dots = dots + json.loads(EXTRA.read_text())["dots_mm"]
+    return np.float32(dots), data["nadir_mm"], float(data["camera_height_mm"])
 
 
 def solve(img, dots_mm, prior):

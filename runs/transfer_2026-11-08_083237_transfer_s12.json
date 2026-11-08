@@ -1,0 +1,9 @@
+{
+  "start": "12",
+  "seed": 288,
+  "batch": "transfer",
+  "time": "2026-11-08_083237",
+  "chunk_steps": 15,
+  "chunks": [],
+  "outcome": "quit"
+}
