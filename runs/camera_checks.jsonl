@@ -5,3 +5,9 @@
 {"time": "2026-11-08_104742", "label": "after_recalibration", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 1.05, "median_shift_mm": 0.44, "worst_shift_mm": 0.57, "ok": true}
 {"time": "2026-11-08_104825", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 1.06, "median_shift_mm": 0.45, "worst_shift_mm": 0.55, "ok": true}
 {"time": "2026-11-08_104922", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.55, "median_shift_mm": 0.23, "worst_shift_mm": 0.33, "ok": true}
+{"time": "2026-11-08_105019", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.64, "median_shift_mm": 0.26, "worst_shift_mm": 0.34, "ok": true}
+{"time": "2026-11-08_195651", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.06, "median_shift_mm": 0.03, "worst_shift_mm": 0.06, "ok": true}
+{"time": "2026-11-08_195727", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.07, "median_shift_mm": 0.03, "worst_shift_mm": 0.09, "ok": true}
+{"time": "2026-11-08_195804", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.09, "median_shift_mm": 0.04, "worst_shift_mm": 0.09, "ok": true}
+{"time": "2026-11-08_200143", "label": "graded start", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.19, "median_shift_mm": 0.08, "worst_shift_mm": 0.13, "ok": true}
+{"time": "2026-11-08_221136", "label": "graded end", "dots_matched": 13, "dots_in_ref": 14, "median_shift_px": 0.36, "median_shift_mm": 0.16, "worst_shift_mm": 0.69, "ok": false}
