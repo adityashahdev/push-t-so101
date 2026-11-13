@@ -11,3 +11,9 @@
 {"time": "2026-11-08_195804", "label": "after_recalibration_repeat", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.09, "median_shift_mm": 0.04, "worst_shift_mm": 0.09, "ok": true}
 {"time": "2026-11-08_200143", "label": "graded start", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.19, "median_shift_mm": 0.08, "worst_shift_mm": 0.13, "ok": true}
 {"time": "2026-11-08_221136", "label": "graded end", "dots_matched": 13, "dots_in_ref": 14, "median_shift_px": 0.36, "median_shift_mm": 0.16, "worst_shift_mm": 0.69, "ok": false}
+{"time": "2026-11-09_184630", "label": "baseline start", "dots_matched": 12, "dots_in_ref": 14, "median_shift_px": 1.78, "median_shift_mm": 0.8, "worst_shift_mm": 0.97, "ok": false}
+{"time": "2026-11-09_191324", "label": "baseline recheck", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 1.57, "median_shift_mm": 0.66, "worst_shift_mm": 0.93, "ok": false}
+{"time": "2026-11-09_192249", "label": "baseline after recalibration", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.08, "median_shift_mm": 0.03, "worst_shift_mm": 0.06, "ok": true}
+{"time": "2026-11-09_192327", "label": "baseline after recalibration", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.1, "median_shift_mm": 0.05, "worst_shift_mm": 0.12, "ok": true}
+{"time": "2026-11-09_192454", "label": "baseline start", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 0.17, "median_shift_mm": 0.07, "worst_shift_mm": 0.13, "ok": true}
+{"time": "2026-11-09_213531", "label": "baseline end", "dots_matched": 14, "dots_in_ref": 14, "median_shift_px": 1.25, "median_shift_mm": 0.54, "worst_shift_mm": 1.32, "ok": false}

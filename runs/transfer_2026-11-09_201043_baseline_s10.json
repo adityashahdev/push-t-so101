@@ -1,0 +1,1673 @@
+{
+  "controller": "vision_feedback_v1",
+  "start": "10",
+  "seed": 282,
+  "batch": "baseline",
+  "time": "2026-11-09_201043",
+  "chunk_steps": 22,
+  "chunks": [
+    {
+      "chunk": 1,
+      "mode": "planner",
+      "mode_reason": "",
+      "seen_before": {
+        "x": 182.61538103907407,
+        "y": -29.11403848201909,
+        "angle": 170.973738315192,
+        "iou": 0.9370534420013428,
+        "area": 1963.6371875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.067
+      },
+      "tracker_coverage_before": 0.0045,
+      "predicted_after": {
+        "x": 182.7125033122223,
+        "y": -28.95071692693585,
+        "angle": 170.4503457087283
+      },
+      "seen_after": {
+        "x": 182.51835080824551,
+        "y": -29.567012957234354,
+        "angle": 170.4547177396675,
+        "iou": 0.9371495842933655,
+        "area": 1964.60953125,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.1
+      },
+      "path_mm": [
+        [
+          174.11298464225968,
+          90.26925142538494
+        ],
+        [
+          173.15226717539994,
+          83.96273779181263
+        ],
+        [
+          172.57714424633417,
+          77.24908459367455
+        ],
+        [
+          172.2789935897153,
+          71.14751679767329
+        ],
+        [
+          170.95001746293087,
+          64.78978262485546
+        ],
+        [
+          169.5989975991934,
+          57.73187350530111
+        ],
+        [
+          168.7989862470925,
+          51.39559199359172
+        ],
+        [
+          167.20313512981778,
+          44.91104444885491
+        ],
+        [
+          164.53709607238483,
+          37.78985021017104
+        ],
+        [
+          162.39244546876432,
+          31.423026350764815
+        ],
+        [
+          159.9995366224281,
+          24.923962280347382
+        ],
+        [
+          156.92170944527578,
+          17.795918219764246
+        ],
+        [
+          153.3926193015128,
+          11.425873419916343
+        ],
+        [
+          148.43950414529598,
+          4.925297348967064
+        ],
+        [
+          143.26817375805624,
+          -2.203455903274417
+        ],
+        [
+          138.5531876245105,
+          -8.5738332101363
+        ],
+        [
+          135.50303871610447,
+          -18.576292310738552
+        ],
+        [
+          133.93504317463578,
+          -27.13243001804743
+        ],
+        [
+          133.16844094780924,
+          -32.02869068615033
+        ],
+        [
+          132.8018866420436,
+          -34.52647500196491
+        ],
+        [
+          140.2206961349625,
+          -36.949701434044385
+        ],
+        [
+          148.36049614041764,
+          -38.73112089712326
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 182.62983277794842,
+        "y": -28.966397342953954,
+        "angle": 170.39636604694306,
+        "iou": 0.9302291870117188,
+        "area": 1951.47921875
+      },
+      "live_coverage_best": 0.0061,
+      "live_samples": 17,
+      "tip_commanded_mm": [
+        175.0,
+        95.0
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "ok",
+      "miss_streak": 0,
+      "seconds": 20.0,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 2,
+      "mode": "planner",
+      "mode_reason": "",
+      "seen_before": {
+        "x": 182.51835080824551,
+        "y": -29.567012957234354,
+        "angle": 170.4547177396675,
+        "iou": 0.9371495842933655,
+        "area": 1964.60953125,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.1
+      },
+      "tracker_coverage_before": 0.0036,
+      "predicted_after": {
+        "x": 194.90499060947306,
+        "y": -7.550781898166914,
+        "angle": 130.91846806893835
+      },
+      "seen_after": {
+        "x": 183.6414402451402,
+        "y": -23.712572164925618,
+        "angle": 159.7277030150684,
+        "iou": 0.9400996565818787,
+        "area": 1975.1475,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.092
+      },
+      "path_mm": [
+        [
+          149.84096889827873,
+          -39.83329490911197
+        ],
+        [
+          153.5277133450642,
+          -40.43344354520555
+        ],
+        [
+          155.73474229800183,
+          -40.79271591546147
+        ],
+        [
+          156.87889270174952,
+          -40.978967041409135
+        ],
+        [
+          157.75897278046034,
+          -39.17509392660314
+        ],
+        [
+          158.38068665999458,
+          -36.76566127230174
+        ],
+        [
+          158.7656340276751,
+          -34.36719697514779
+        ],
+        [
+          159.05871003033863,
+          -31.93047158446616
+        ],
+        [
+          159.3571849987552,
+          -29.477262915460813
+        ],
+        [
+          159.71213768903644,
+          -27.021785445366476
+        ],
+        [
+          160.1477358957465,
+          -24.574338458690804
+        ],
+        [
+          160.6746581258928,
+          -22.14244382957223
+        ],
+        [
+          161.29716340123392,
+          -19.7320049337837
+        ],
+        [
+          162.01649543298424,
+          -17.348027475977617
+        ],
+        [
+          162.83245490907694,
+          -14.995020446837813
+        ],
+        [
+          163.74411064652384,
+          -12.67720804605051
+        ],
+        [
+          164.75011841354666,
+          -10.398636442255935
+        ],
+        [
+          165.84886385523686,
+          -8.16322497912553
+        ],
+        [
+          167.03852733296065,
+          -5.974788875702259
+        ],
+        [
+          168.3171143573296,
+          -3.837047580378467
+        ],
+        [
+          169.68247098684287,
+          -1.753626009166453
+        ],
+        [
+          169.1670152941512,
+          -1.9719404761584087
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": "diverged",
+      "live_pose_last": {
+        "x": 182.5403497795962,
+        "y": -29.26433190205495,
+        "angle": 169.80443029106124,
+        "iou": 0.9270886182785034,
+        "area": 1944.564375
+      },
+      "live_coverage_best": 0.0066,
+      "live_samples": 20,
+      "tip_commanded_mm": [
+        146.04586333398854,
+        -41.605563834306054
+      ],
+      "tip_seen_mm": [
+        118.64326477050781,
+        -45.46339416503906
+      ],
+      "outcome_class": "miss",
+      "miss_streak": 1,
+      "seconds": 30.5,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 3,
+      "mode": "recovery",
+      "mode_reason": "miss in gross phase",
+      "seen_before": {
+        "x": 183.6414402451402,
+        "y": -23.712572164925618,
+        "angle": 159.7277030150684,
+        "iou": 0.9400996565818787,
+        "area": 1975.1475,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.092
+      },
+      "tracker_coverage_before": 0.093,
+      "predicted_after": {
+        "x": 186.75977944628104,
+        "y": -15.270063022103907,
+        "angle": 159.7277030150684
+      },
+      "seen_after": {
+        "x": 184.64681029898944,
+        "y": -24.386688300395107,
+        "angle": 161.97216762892776,
+        "iou": 0.9395631551742554,
+        "area": 1971.5446875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.067
+      },
+      "path_mm": [
+        [
+          171.88876627817376,
+          -55.53145106764923
+        ],
+        [
+          173.27469481201413,
+          -51.77922478195069
+        ],
+        [
+          174.66062334585453,
+          -48.02699849625215
+        ],
+        [
+          176.0465518796949,
+          -44.274772210553614
+        ],
+        [
+          177.43248041353527,
+          -40.52254592485507
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 183.5638878666087,
+        "y": -23.478417352784426,
+        "angle": 159.47110168290556,
+        "iou": 0.9191275835037231,
+        "area": 1915.18890625
+      },
+      "live_coverage_best": 0.0961,
+      "live_samples": 28,
+      "tip_commanded_mm": [
+        162.88023080821128,
+        -79.92092192468974
+      ],
+      "tip_seen_mm": [
+        137.55841064453125,
+        -93.42231750488281
+      ],
+      "outcome_class": "miss",
+      "miss_streak": 2,
+      "seconds": 42.3,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 4,
+      "mode": "recovery",
+      "mode_reason": "miss in gross phase",
+      "seen_before": {
+        "x": 184.64681029898944,
+        "y": -24.386688300395107,
+        "angle": 161.97216762892776,
+        "iou": 0.9395631551742554,
+        "area": 1971.5446875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.067
+      },
+      "tracker_coverage_before": 0.0801,
+      "predicted_after": {
+        "x": 187.4321208427429,
+        "y": -15.82853165454807,
+        "angle": 161.97216762892776
+      },
+      "seen_after": {
+        "x": 185.35863702897484,
+        "y": -24.928719927952592,
+        "angle": 162.83051542810756,
+        "iou": 0.9376451969146729,
+        "area": 1961.33015625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.086
+      },
+      "path_mm": [
+        [
+          174.14928433853197,
+          -56.64142979229862
+        ],
+        [
+          175.38720013575573,
+          -52.8378046163666
+        ],
+        [
+          176.6251159329795,
+          -49.034179440434585
+        ],
+        [
+          177.86303173020323,
+          -45.230554264502565
+        ],
+        [
+          179.100947527427,
+          -41.426929088570546
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 184.48281615069547,
+        "y": -24.158543904439497,
+        "angle": 162.31217465391717,
+        "iou": 0.9224648475646973,
+        "area": 1918.78984375
+      },
+      "live_coverage_best": 0.0864,
+      "live_samples": 36,
+      "tip_commanded_mm": [
+        166.10283165657754,
+        -81.36499343585673
+      ],
+      "tip_seen_mm": [
+        140.880859375,
+        -95.18920135498047
+      ],
+      "outcome_class": "miss",
+      "miss_streak": 3,
+      "seconds": 54.1,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 5,
+      "mode": "recovery",
+      "mode_reason": "miss in gross phase",
+      "seen_before": {
+        "x": 185.35863702897484,
+        "y": -24.928719927952592,
+        "angle": 162.83051542810756,
+        "iou": 0.9376451969146729,
+        "area": 1961.33015625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.086
+      },
+      "tracker_coverage_before": 0.073,
+      "predicted_after": {
+        "x": 188.01543011645396,
+        "y": -16.32979845544669,
+        "angle": 162.83051542810756
+      },
+      "seen_after": {
+        "x": 190.90946729563004,
+        "y": -27.48682205818873,
+        "angle": 173.98955593993526,
+        "iou": 0.9304702877998352,
+        "area": 1925.19296875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.547
+      },
+      "path_mm": [
+        [
+          175.34547908149796,
+          -57.33709952210819
+        ],
+        [
+          176.52627600926647,
+          -53.5153566454389
+        ],
+        [
+          177.70707293703495,
+          -49.69361376876961
+        ],
+        [
+          178.88786986480346,
+          -45.87187089210032
+        ],
+        [
+          180.06866679257195,
+          -42.05012801543102
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 185.20463578900512,
+        "y": -24.58033176304906,
+        "angle": 162.6007989949088,
+        "iou": 0.9234085083007812,
+        "area": 1910.71859375
+      },
+      "live_coverage_best": 0.0771,
+      "live_samples": 44,
+      "tip_commanded_mm": [
+        167.6702990510027,
+        -82.17842822045858
+      ],
+      "tip_seen_mm": [
+        143.0050811767578,
+        -96.05950164794922
+      ],
+      "outcome_class": "wrongway",
+      "miss_streak": 4,
+      "seconds": 65.9,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 6,
+      "mode": "recovery",
+      "mode_reason": "wrongway in gross phase",
+      "seen_before": {
+        "x": 190.90946729563004,
+        "y": -27.48682205818873,
+        "angle": 173.98955593993526,
+        "iou": 0.9304702877998352,
+        "area": 1925.19296875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.547
+      },
+      "tracker_coverage_before": 0.0106,
+      "predicted_after": {
+        "x": 190.90946729563004,
+        "y": -27.48682205818873,
+        "angle": 155.65490649574892
+      },
+      "seen_after": {
+        "x": 201.8588897148341,
+        "y": -17.195604200531022,
+        "angle": 173.0062733479872,
+        "iou": 0.9350497722625732,
+        "area": 1905.00890625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.098
+      },
+      "path_mm": [
+        [
+          171.86396748706954,
+          -44.50613072411049
+        ],
+        [
+          172.12574185256662,
+          -42.01987366146218
+        ],
+        [
+          172.38751621806367,
+          -39.53361659881387
+        ],
+        [
+          172.64929058356074,
+          -37.04735953616556
+        ],
+        [
+          172.91106494905782,
+          -34.561102473517245
+        ],
+        [
+          173.17283931455486,
+          -32.07484541086893
+        ],
+        [
+          173.43461368005194,
+          -29.588588348220625
+        ],
+        [
+          173.696388045549,
+          -27.102331285572312
+        ],
+        [
+          173.95816241104606,
+          -24.616074222924002
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 191.76117435631028,
+        "y": -20.634510221375194,
+        "angle": 167.9071255879984,
+        "iou": 0.9348393082618713,
+        "area": 1936.8253125
+      },
+      "live_coverage_best": 0.1114,
+      "live_samples": 55,
+      "tip_commanded_mm": [
+        169.14151408590007,
+        -70.36320417565292
+      ],
+      "tip_seen_mm": [
+        146.25462341308594,
+        -80.44435119628906
+      ],
+      "outcome_class": "ok",
+      "miss_streak": 0,
+      "seconds": 79.3,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 7,
+      "mode": "planner",
+      "mode_reason": "path bent by reach clipping (trimmed)",
+      "seen_before": {
+        "x": 201.8588897148341,
+        "y": -17.195604200531022,
+        "angle": 173.0062733479872,
+        "iou": 0.9350497722625732,
+        "area": 1905.00890625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.098
+      },
+      "tracker_coverage_before": 0.0858,
+      "predicted_after": {
+        "x": 201.92720238051209,
+        "y": -16.675583738628603,
+        "angle": 171.86141214437956
+      },
+      "seen_after": {
+        "x": 201.92727144399447,
+        "y": -16.699493721030798,
+        "angle": 173.33228848323472,
+        "iou": 0.937217116355896,
+        "area": 1908.06546875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.099
+      },
+      "path_mm": [
+        [
+          171.73397099383033,
+          -27.273171983867883
+        ],
+        [
+          171.45330547862187,
+          -29.357300213707134
+        ],
+        [
+          176.27914657495197,
+          -34.447715398770356
+        ],
+        [
+          182.78084610177342,
+          -40.499179548025
+        ],
+        [
+          189.6204848269738,
+          -46.99624645903269
+        ],
+        [
+          195.78900435954822,
+          -51.79138415367889
+        ],
+        [
+          202.1799282464484,
+          -55.62238548440028
+        ],
+        [
+          210.64653573163355,
+          -57.145428936602684
+        ],
+        [
+          217.31615999618725,
+          -57.37645554736817
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 201.98894617932712,
+        "y": -16.85798808141368,
+        "angle": 173.57932216810514,
+        "iou": 0.9293362498283386,
+        "area": 1893.51515625
+      },
+      "live_coverage_best": 0.0899,
+      "live_samples": 62,
+      "tip_commanded_mm": [
+        171.21656312989003,
+        -31.4909386293073
+      ],
+      "tip_seen_mm": [
+        154.27755737304688,
+        -35.11591339111328
+      ],
+      "outcome_class": "ok",
+      "miss_streak": 0,
+      "seconds": 91.3,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 8,
+      "mode": "recovery",
+      "mode_reason": "path bent by reach clipping",
+      "seen_before": {
+        "x": 201.92727144399447,
+        "y": -16.699493721030798,
+        "angle": 173.33228848323472,
+        "iou": 0.937217116355896,
+        "area": 1908.06546875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.099
+      },
+      "tracker_coverage_before": 0.0883,
+      "predicted_after": {
+        "x": 202.9722706858652,
+        "y": -7.760367556550868,
+        "angle": 173.33228848323472
+      },
+      "seen_after": {
+        "x": 217.27971237926067,
+        "y": -12.771106950426258,
+        "angle": -153.0562798862765,
+        "iou": 0.94642573595047,
+        "area": 1862.38234375,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.09
+      },
+      "path_mm": [
+        [
+          197.98878541241058,
+          -50.39006699871514
+        ],
+        [
+          198.4532295199087,
+          -46.417122036724066
+        ],
+        [
+          198.91767362740677,
+          -42.444177074732984
+        ],
+        [
+          199.38211773490488,
+          -38.4712321127419
+        ],
+        [
+          199.846561842403,
+          -34.498287150750826
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 203.95247443815464,
+        "y": -12.933587599417741,
+        "angle": -179.88263972078153,
+        "iou": 0.9324379563331604,
+        "area": 1880.389375
+      },
+      "live_coverage_best": 0.0899,
+      "live_samples": 70,
+      "tip_commanded_mm": [
+        194.96989871367293,
+        -76.21420925165715
+      ],
+      "tip_seen_mm": [
+        178.3412628173828,
+        -87.22671508789062
+      ],
+      "outcome_class": "ok",
+      "miss_streak": 0,
+      "seconds": 103.6,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 9,
+      "mode": "recovery",
+      "mode_reason": "rollout leaves the pushable band",
+      "seen_before": {
+        "x": 217.27971237926067,
+        "y": -12.771106950426258,
+        "angle": -153.0562798862765,
+        "iou": 0.94642573595047,
+        "area": 1862.38234375,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.09
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 213.2016767268304,
+        "y": -4.748038633534797,
+        "angle": -153.0562798862765
+      },
+      "seen_after": {
+        "x": 223.92674424549637,
+        "y": -1.8553619045751901,
+        "angle": -139.62416336026524,
+        "iou": 0.9476547241210938,
+        "area": 1890.31515625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.191
+      },
+      "path_mm": [
+        [
+          216.93812919871246,
+          -34.168530181525064
+        ],
+        [
+          215.12566890874345,
+          -30.602722040684412
+        ],
+        [
+          213.31320861877444,
+          -27.036913899843764
+        ],
+        [
+          211.50074832880543,
+          -23.471105759003116
+        ],
+        [
+          209.68828803883642,
+          -19.905297618162464
+        ]
+      ],
+      "clipped_points": 0,
+      "skipped_points": 0,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 217.05130690915223,
+        "y": -12.439069780659317,
+        "angle": -153.3320430644867,
+        "iou": 0.8154226541519165,
+        "area": 1592.71125
+      },
+      "live_coverage_best": 0.0,
+      "live_samples": 76,
+      "tip_commanded_mm": [
+        202.75610231368088,
+        -55.960044893271046
+      ],
+      "tip_seen_mm": [
+        190.23294067382812,
+        -63.81320571899414
+      ],
+      "outcome_class": "ok",
+      "miss_streak": 0,
+      "seconds": 116.0,
+      "light_warning": [],
+      "gripper_c": 36
+    },
+    {
+      "chunk": 10,
+      "mode": "planner",
+      "mode_reason": "rollout leaves the pushable band (no vision push fits)",
+      "seen_before": {
+        "x": 223.92674424549637,
+        "y": -1.8553619045751901,
+        "angle": -139.62416336026524,
+        "iou": 0.9476547241210938,
+        "area": 1890.31515625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.191
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 211.28563060248138,
+        "y": -6.158064831926689,
+        "angle": -166.99217960320348
+      },
+      "seen_after": {
+        "x": 226.1435817737057,
+        "y": 0.43643617061742646,
+        "angle": -135.85673418714987,
+        "iou": 0.9442101120948792,
+        "area": 1877.0559375,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.116
+      },
+      "path_mm": [
+        [
+          211.02250973452826,
+          -24.549865615895783
+        ],
+        [
+          213.20193327520118,
+          -27.30292372354036
+        ],
+        [
+          218.00311500884897,
+          -28.377440695149872
+        ],
+        [
+          223.18531842186596,
+          -28.51865426225958
+        ],
+        [
+          223.26693767428534,
+          -27.872469240215956
+        ],
+        [
+          223.35352215234502,
+          -27.169912442662007
+        ],
+        [
+          223.42964903222023,
+          -26.536614956299466
+        ],
+        [
+          223.33750604884563,
+          -27.301252569833576
+        ],
+        [
+          223.82382911765768,
+          -22.975933476347993
+        ],
+        [
+          224.27467278684503,
+          -18.05190146088782
+        ]
+      ],
+      "clipped_points": 7,
+      "skipped_points": 12,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 223.29296609675606,
+        "y": -0.34434924995517946,
+        "angle": -142.01911059411208,
+        "iou": 0.8127468824386597,
+        "area": 1603.81109375
+      },
+      "live_coverage_best": 0.0,
+      "live_samples": 80,
+      "tip_commanded_mm": [
+        216.84648581368788,
+        -31.398864399383925
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 1,
+      "seconds": 127.2,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 11,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 226.1435817737057,
+        "y": 0.43643617061742646,
+        "angle": -135.85673418714987,
+        "iou": 0.9442101120948792,
+        "area": 1877.0559375,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.116
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 213.31697883866147,
+        "y": -7.6105352946629745,
+        "angle": -163.25552058829695
+      },
+      "seen_after": {
+        "x": 225.8536124283848,
+        "y": 0.1376610465850021,
+        "angle": -135.2821561919841,
+        "iou": 0.9473214745521545,
+        "area": 1888.813125,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.109
+      },
+      "path_mm": [
+        [
+          223.9000451949299,
+          -22.2209307120188
+        ],
+        [
+          223.85262006112063,
+          -22.693710401157098
+        ],
+        [
+          223.73471687236633,
+          -23.828060475877336
+        ],
+        [
+          223.75831758917613,
+          -23.605408483256184
+        ],
+        [
+          223.9165715035883,
+          -22.053775324837908
+        ]
+      ],
+      "clipped_points": 5,
+      "skipped_points": 17,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 80,
+      "tip_commanded_mm": [
+        223.8211142939381,
+        -23.002365013621983
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 2,
+      "seconds": 136.7,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 12,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 225.8536124283848,
+        "y": 0.1376610465850021,
+        "angle": -135.2821561919841,
+        "iou": 0.9473214745521545,
+        "area": 1888.813125,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.109
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 213.46024155046308,
+        "y": -8.464520891350192,
+        "angle": -162.61016166012735
+      },
+      "seen_after": {
+        "x": 226.04013362200646,
+        "y": 0.45459884219005886,
+        "angle": -135.64056111678315,
+        "iou": 0.942516028881073,
+        "area": 1870.6015625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.116
+      },
+      "path_mm": [
+        [
+          223.69441027046503,
+          -24.203528952383596
+        ],
+        [
+          223.6971788906963,
+          -24.17792704811189
+        ],
+        [
+          223.74900725807706,
+          -23.693495964609962
+        ],
+        [
+          223.69667228057097,
+          -24.18261380824739
+        ],
+        [
+          223.74772139608834,
+          -23.705635829026658
+        ]
+      ],
+      "clipped_points": 5,
+      "skipped_points": 17,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 80,
+      "tip_commanded_mm": [
+        223.59205627464186,
+        -25.131501564319148
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 3,
+      "seconds": 146.4,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 13,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 226.04013362200646,
+        "y": 0.45459884219005886,
+        "angle": -135.64056111678315,
+        "iou": 0.942516028881073,
+        "area": 1870.6015625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.116
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 211.3451993920725,
+        "y": -8.84166918028005,
+        "angle": -167.01743802704453
+      },
+      "seen_after": {
+        "x": 225.9339580994324,
+        "y": 0.37097544861573084,
+        "angle": -135.04267538610702,
+        "iou": 0.9439577460289001,
+        "area": 1877.870625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.098
+      },
+      "path_mm": [
+        [
+          223.64822676675345,
+          -24.62662510549962
+        ],
+        [
+          223.7277654970571,
+          -23.893240585860603
+        ],
+        [
+          223.6868577187118,
+          -24.273229779507798
+        ],
+        [
+          223.74337551689447,
+          -23.74661896578014
+        ]
+      ],
+      "clipped_points": 4,
+      "skipped_points": 18,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 80,
+      "tip_commanded_mm": [
+        223.49032611666297,
+        -26.020648190766273
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 4,
+      "seconds": 155.8,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 14,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 225.9339580994324,
+        "y": 0.37097544861573084,
+        "angle": -135.04267538610702,
+        "iou": 0.9439577460289001,
+        "area": 1877.870625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.098
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 211.33690427378227,
+        "y": -9.078103038752293,
+        "angle": -166.41942707423087
+      },
+      "seen_after": {
+        "x": 225.86315681822197,
+        "y": 0.1325752156277673,
+        "angle": -135.152427992872,
+        "iou": 0.9445731043815613,
+        "area": 1888.454375,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.095
+      },
+      "path_mm": [
+        [
+          223.65542365076453,
+          -24.56117813943452
+        ],
+        [
+          223.7314723651633,
+          -23.858505261565654
+        ],
+        [
+          223.6886912833554,
+          -24.256326843521144
+        ],
+        [
+          223.74422149983636,
+          -23.73864666387232
+        ]
+      ],
+      "clipped_points": 4,
+      "skipped_points": 18,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 80,
+      "tip_commanded_mm": [
+        223.48462154799034,
+        -26.06959784023395
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 5,
+      "seconds": 165.2,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 15,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 225.86315681822197,
+        "y": 0.1325752156277673,
+        "angle": -135.152427992872,
+        "iou": 0.9445731043815613,
+        "area": 1888.454375,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.095
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 211.24794506461635,
+        "y": -9.288556565014611,
+        "angle": -166.5293017883028
+      },
+      "seen_after": {
+        "x": 226.3158851126684,
+        "y": 0.3404355130246728,
+        "angle": -135.13310885020684,
+        "iou": 0.9459754824638367,
+        "area": 1880.881875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.129
+      },
+      "path_mm": [
+        [
+          223.65694411759537,
+          -24.547328734076668
+        ],
+        [
+          223.73225607920546,
+          -23.851154892558828
+        ],
+        [
+          223.68907911786744,
+          -24.25275001727528
+        ],
+        [
+          223.7444004809039,
+          -23.7369596503194
+        ],
+        [
+          224.99881202612178,
+          -0.7311544528370985
+        ]
+      ],
+      "clipped_points": 5,
+      "skipped_points": 17,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 80,
+      "tip_commanded_mm": [
+        223.47993280224102,
+        -26.109761291628747
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 6,
+      "seconds": 175.8,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 16,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 226.3158851126684,
+        "y": 0.3404355130246728,
+        "angle": -135.13310885020684,
+        "iou": 0.9459754824638367,
+        "area": 1880.881875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.129
+      },
+      "tracker_coverage_before": 0.0,
+      "predicted_after": {
+        "x": 230.47088770292658,
+        "y": -3.31653860680599,
+        "angle": -135.7014988774172
+      },
+      "seen_after": {
+        "x": 224.25272074299323,
+        "y": -2.0552501586647978,
+        "angle": -130.63703013346162,
+        "iou": 0.943490207195282,
+        "area": 1889.84,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.089
+      },
+      "path_mm": [
+        [
+          220.67066398952915,
+          3.544519833245289
+        ],
+        [
+          216.98090029759695,
+          6.135058402424278
+        ],
+        [
+          215.52586589471412,
+          5.968237892507744
+        ],
+        [
+          211.86193241075296,
+          9.561258450700905
+        ],
+        [
+          208.24828639596515,
+          14.995835734774914
+        ],
+        [
+          206.68977518544725,
+          15.816114755500536
+        ],
+        [
+          205.64017580096044,
+          18.857358051806358
+        ],
+        [
+          204.3324985329536,
+          19.919777953939132
+        ],
+        [
+          206.21968866557353,
+          24.29771190250642
+        ],
+        [
+          205.92864007975837,
+          26.22911385716648
+        ],
+        [
+          209.6470866090816,
+          31.268402002249843
+        ],
+        [
+          215.46957463677396,
+          36.61473404647941
+        ],
+        [
+          220.7714944016152,
+          39.80418616014299
+        ],
+        [
+          221.18784503203972,
+          41.242420031836
+        ]
+      ],
+      "clipped_points": 1,
+      "skipped_points": 8,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": {
+        "x": 226.64034985957676,
+        "y": 0.28660923922790005,
+        "angle": -135.98923647552323,
+        "iou": 0.8223801851272583,
+        "area": 1659.1571875
+      },
+      "live_coverage_best": 0.0,
+      "live_samples": 81,
+      "tip_commanded_mm": [
+        210.0142323939035,
+        9.398386730485857
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "wrongway",
+      "miss_streak": 7,
+      "seconds": 187.9,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 17,
+      "mode": "planner",
+      "mode_reason": "wrongway in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 224.25272074299323,
+        "y": -2.0552501586647978,
+        "angle": -130.63703013346162,
+        "iou": 0.943490207195282,
+        "area": 1889.84,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.089
+      },
+      "tracker_coverage_before": 0.0004,
+      "predicted_after": {
+        "x": 198.84219351109522,
+        "y": -15.14353559610655,
+        "angle": 177.9747142727613
+      },
+      "seen_after": {
+        "x": 224.22840234928918,
+        "y": -2.0710148466083993,
+        "angle": -130.5650472884132,
+        "iou": 0.9479249715805054,
+        "area": 1899.170625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.117
+      },
+      "path_mm": [
+        [
+          221.79951435305824,
+          37.81501596915599
+        ]
+      ],
+      "clipped_points": 1,
+      "skipped_points": 21,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 81,
+      "tip_commanded_mm": [
+        220.81321836498162,
+        43.203270655112895
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 8,
+      "seconds": 197.6,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 18,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 224.22840234928918,
+        "y": -2.0710148466083993,
+        "angle": -130.5650472884132,
+        "iou": 0.9479249715805054,
+        "area": 1899.170625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.117
+      },
+      "tracker_coverage_before": 0.0005,
+      "predicted_after": {
+        "x": 198.83442221148482,
+        "y": -15.191487899947282,
+        "angle": 178.0473231890831
+      },
+      "seen_after": {
+        "x": 224.2711367840418,
+        "y": -2.022580079448595,
+        "angle": -130.63540322960876,
+        "iou": 0.9455592036247253,
+        "area": 1896.1590625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.118
+      },
+      "path_mm": [
+        [
+          222.01491728128573,
+          36.5291185848203
+        ]
+      ],
+      "clipped_points": 1,
+      "skipped_points": 21,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 81,
+      "tip_commanded_mm": [
+        221.40561167834784,
+        40.05689849871862
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 9,
+      "seconds": 207.2,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 19,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 224.2711367840418,
+        "y": -2.022580079448595,
+        "angle": -130.63540322960876,
+        "iou": 0.9455592036247253,
+        "area": 1896.1590625,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.118
+      },
+      "tracker_coverage_before": 0.0004,
+      "predicted_after": {
+        "x": 198.86145127042755,
+        "y": -15.111774653096148,
+        "angle": 177.97745957271314
+      },
+      "seen_after": {
+        "x": 224.20589536765095,
+        "y": -2.0468166322231127,
+        "angle": -130.56255338028393,
+        "iou": 0.9434130787849426,
+        "area": 1889.21078125,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.111
+      },
+      "path_mm": [],
+      "clipped_points": 0,
+      "skipped_points": 22,
+      "lowered_away": true,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 81,
+      "tip_commanded_mm": [
+        221.5324297044084,
+        39.349492871717615
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 10,
+      "seconds": 216.7,
+      "light_warning": [],
+      "gripper_c": 37
+    },
+    {
+      "chunk": 20,
+      "mode": "planner",
+      "mode_reason": "miss in gross phase (no vision push fits)",
+      "seen_before": {
+        "x": 224.20589536765095,
+        "y": -2.0468166322231127,
+        "angle": -130.56255338028393,
+        "iou": 0.9434130787849426,
+        "area": 1889.21078125,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.111
+      },
+      "tracker_coverage_before": 0.0005,
+      "predicted_after": {
+        "x": 198.81228518094778,
+        "y": -15.168486590722438,
+        "angle": 178.04964314947497
+      },
+      "seen_after": {
+        "x": 224.14888593266141,
+        "y": -1.9424665888017003,
+        "angle": -130.5422880804569,
+        "iou": 0.9444271326065063,
+        "area": 1881.96046875,
+        "refit": true,
+        "refit_cached": false,
+        "dot_residual": 0.081
+      },
+      "path_mm": [
+        [
+          221.83533422972067,
+          37.60431474163744
+        ]
+      ],
+      "clipped_points": 1,
+      "skipped_points": 21,
+      "lowered_away": false,
+      "backed_off_before_lift": true,
+      "aborted": null,
+      "live_pose_last": null,
+      "live_coverage_best": 0.0,
+      "live_samples": 81,
+      "tip_commanded_mm": [
+        221.23327462390276,
+        40.99802677184373
+      ],
+      "tip_seen_mm": null,
+      "outcome_class": "miss",
+      "miss_streak": 11,
+      "seconds": 226.2,
+      "light_warning": [],
+      "gripper_c": 37
+    }
+  ],
+  "outcome": "push cap",
+  "home_mm": [
+    175.0,
+    95.0
+  ],
+  "seconds": 229.5
+}

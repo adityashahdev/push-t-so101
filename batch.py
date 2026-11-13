@@ -38,7 +38,7 @@ def main():
             print(f"Skipped start {start}. Write the reason in the deviations log")
             continue
         run(HERE / "place_start.py", start)
-        run(HERE / "transfer_run.py", "--start", start, "--batch", args.name)
+        run(HERE / "auto_run.py", "--start", start, "--batch", args.name)
     run(HERE / "camera_check.py", f"{args.name} end")
     print(f"Batch {args.name} done.")
 

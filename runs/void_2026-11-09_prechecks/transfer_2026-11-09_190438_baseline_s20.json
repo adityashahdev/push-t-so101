@@ -1,0 +1,10 @@
+{
+  "controller": "vision_feedback_v1",
+  "start": "20",
+  "seed": 522,
+  "batch": "baseline",
+  "time": "2026-11-09_190438",
+  "chunk_steps": 22,
+  "chunks": [],
+  "outcome": "quit"
+}
